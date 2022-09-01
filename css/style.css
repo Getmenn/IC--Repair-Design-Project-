@@ -1,0 +1,171 @@
+body
+{
+    font-family: 'Nunito Sans','Arial', sans-serif;
+    font-style: normal; 
+    margin: 0;
+}
+*
+{
+    box-sizing: border-box;
+}
+.button
+{    
+    background-color: #E3B873;
+    margin: 0 auto;
+    width: 161px;
+    height: 37px;
+    color: #fff;
+    border: 0;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.zero
+{
+    margin-left: 51px;
+}
+
+.button:hover
+{
+    background-color: #8d6a31;
+}
+
+.logo
+{
+    color: #E3B873;
+    font-size: 11px;
+    line-height: 15px; 
+    letter-spacing: 1px; 
+}
+
+.container-head
+{
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+    max-width: 1257px;
+    margin: 0 auto;
+}
+
+.header
+{
+    background-color: #131313;
+    
+}
+.num
+{
+    font-size: 11px;
+    line-height: 15px;
+    color: #E3B873;
+}
+.header-navigation
+{
+    list-style: none;
+    display: flex;
+    margin-left: 81px;
+    margin-right: 43px;
+}
+
+.header-navigation_iteam
+{
+    margin-right: 53px;
+}
+
+.header-navigation_iteam a
+{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 15px;
+    cursor: pointer;
+}
+
+.header-navigation_iteam a:hover
+{
+    color: #E3B873;
+}
+
+.background_img
+{
+    background-image: url('../images/image_1.jpg');
+    background-size: cover;
+    height: 707px;
+    position: relative;
+    padding-top: 189px;
+    
+}
+.overlay_img
+{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.container_1
+{
+    position: relative;
+    z-index: 1;   
+    margin-left: 374px;
+    width: 676px;
+}
+.title
+{
+    margin: 0;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 53px;
+    text-transform: uppercase;
+    width: 512px;
+    color: #FFFFFF;   
+}
+.container_1 p
+{
+    color:#fff ;
+    font-size: 22px;
+    line-height: 36px;  
+    width: 504px;
+}
+.button_2
+{
+    background: transparent;
+    border: 1px solid #fff;
+    margin:0 auto;
+    width: 207px;
+    height: 51px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 2px;
+    margin-left: 20px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button_2:hover
+{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.one
+{
+    width: 207px;
+    height: 51px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+}
