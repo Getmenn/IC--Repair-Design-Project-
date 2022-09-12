@@ -40,7 +40,7 @@ body
     color: #E3B873;
     font-size: 11px;
     line-height: 15px; 
-    letter-spacing: 1px; 
+    letter-spacing: 1.5px; 
 }
 
 .container-head
@@ -49,7 +49,7 @@ body
     justify-content: space-between;
     height: 83px;
     align-items: center;
-    max-width: 1257px;
+    max-width: 1265px;
     margin: 0 auto;
 }
 
@@ -69,9 +69,10 @@ body
 {
     list-style: none;
     display: flex;
-    margin-left: 81px;
+    margin-left: 76px;
     margin-right: 43px;
 }
+
 
 .header-navigation_iteam
 {
@@ -192,6 +193,7 @@ body
     margin: 0 auto;
     padding: 0;
     display: flex;
+    
 }
 
 .slider-button
@@ -215,13 +217,11 @@ body
 
 .nav-slider
 {
-    margin: 0 auto;  
-    width: 630px;
+    width: 693px;
     margin-top: 107px;
-    margin-right: 330px;
+    margin-right: 100px;
+    
 }
-
-
 
 
 .name-sl
@@ -232,7 +232,7 @@ body
     width: 200px;
     font-size: 27px;
     line-height: 37px;
-    letter-spacing: -0.07em;
+    letter-spacing: -1px;
     text-transform: uppercase;
     color: #E3B873;
     margin-top: -7px;
@@ -240,12 +240,15 @@ body
 
 .info
 {
-    width: 442px;
+    width: 429px;
     font-weight: 400;
     font-size: 14px;
     line-height: 27px;
-    color: #FFFFFF;   
-}
+    color: #FFFFFF;  
+    margin-bottom: 34px;
+    
+} 
+
 
 .fixed-container
 {
@@ -253,16 +256,18 @@ body
     justify-content: space-between;
     align-content: flex-start;
     max-width: 1257px;
-    
     margin: 0 auto;
 }
 
 .container-nav-slider
 {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 45px; 
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+li.slider-button {
+    margin-right: 47px;
 }
 
 .four_elements
@@ -286,14 +291,16 @@ body
 
 .element
 {
-    margin-right: 40px;
+    margin-right: 57px;
+    margin-bottom: 10px;
 }
 
 .element p
 {
-    width:140px;
+    width: 136px;
     font-size: 13px;
     line-height: 21px;
+    margin-top: -16px;
 }
 
 .info-slider
@@ -303,6 +310,502 @@ body
 
 .slider
 {
-    margin-right: 20px;
-    padding-top: 53px;
+    margin-right: 80px;
+    padding-top: 49px;
 }
+
+.navigation-slider_2
+{
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    width: 205px;
+
+}
+
+.arrow_revers
+{
+    transform: scale(-1, 1);
+}
+
+.dot
+{
+    background-color: #696969;
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+   margin-right: -5px;
+}
+
+.dot-active
+{
+    background-color: #fff;
+}
+
+.fut-black-conteiner
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -59px;
+}
+
+.fut-black
+{
+    display: flex;
+    margin-top: 87px;
+    flex-direction: column;
+    
+}
+
+.fut-black-cont
+{
+    color: #fff;
+    margin: auto;
+    font-family: 'Yeseva One';
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;   
+}
+
+.icon-fut-black
+{
+    margin-top: 15px;
+}
+
+.line
+{
+    width: 32px;
+    height: 1px;
+    background: #E3B873;
+    border-radius: 30px;  
+    margin-right: 8px;  
+    margin-left: 8px;
+}
+
+.small-container
+{
+   
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.video-content
+{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 141px;
+}
+
+.video-button
+{
+    margin-top: -353px;
+}
+
+.line-and-text
+{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 282px;
+    margin-left: 262px;
+    text-align: center;
+    width: 667px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.line-and-text p
+{
+    margin-top: 32px;
+}
+
+.long
+{
+    width: 55px;
+}
+
+.input
+{
+    
+    width: 231px;
+    height: 31px;
+    border: 1px solid rgba(54, 54, 54, 0.3);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: -10px;
+      
+}
+
+.cont-name-phone
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    color: rgba(54, 54, 54, 0.3);
+    font-size: 13px;
+    line-height: 21px;
+    
+    
+}
+
+.cont-name-phone p
+{
+    margin-left: 5px;
+}
+
+.three
+{
+    width: 200px;
+    height: 51px;
+}
+
+.container-name-phone
+{
+    display: flex;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 38px;
+}
+
+.check-kont
+{
+    margin:0 auto;
+    width: 400px;
+    
+}
+
+.kont
+{
+    display: block;
+    user-select: none;
+}
+
+
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    user-select: none;
+    margin-top: 16px;
+  }
+  
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+  }
+  
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  .container input:checked ~ .checkmark {
+    background-color: #E3B873;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .container .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 3px;
+    height: 6px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .fut-white-cont
+  {
+    margin: auto;
+    font-family: 'Yeseva One';
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;   
+  }
+ 
+
+  .image-box
+  {
+    width: 392px;
+    margin-right: 30px;
+    
+  }
+
+  .products
+  {
+    display: flex;
+    margin-top: 31px;
+  }
+
+  .product
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .text-box
+  {
+    position: relative;
+    background-color: #fff;
+    width: 330px;
+    height: 260px;
+    z-index: 2;
+    margin-top: -131px;
+    margin-left: -30px;
+    margin-bottom: 13px;
+  }
+
+  .text-box ul li
+  {
+    list-style-type: disc;
+    color: #959595;
+    font-size: 13px;
+    line-height: 27px;
+    margin-left: 2px;
+  }
+
+  .text-box ul 
+  {
+    margin-top: -10px;
+  }
+
+  .text-box h3
+  {
+    margin-left: 31px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .four
+  {
+    width: 228px;
+    height: 54px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-top: -12px;
+  }
+
+  .conteiner-city-img
+  {
+    margin-top: 50px;
+  }
+
+  .benefits-four
+  {
+    width: 650px;
+    margin-top:-600px;
+    margin-left: 260px;
+  }
+
+  .benefit-element
+  {
+    display: flex;
+    margin-top: 85px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636;
+  }
+
+  .var-circle
+  {
+    height: 51px;
+    width: 51px;
+    background-color: #E3B873;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 30px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 5px;
+    color: #fff;
+    margin-right: 10px;
+  }
+
+  .request-registrashen
+  {
+    width: 506px;
+    height: 509px;
+    background-color: #131313;
+    margin-top: 139px;
+  }
+
+  .box-regiser
+  {
+    display:flex;
+    margin-left: -123px;
+  }
+
+  .request-registrashen p
+  {
+    width: 297px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .request
+  {
+    background-color: transparent;
+    color: #fff;
+  }
+
+  .request-fields p
+  {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+    line-height: 21px;
+    margin-left: -84px;
+  }
+
+  .request
+  {
+    margin-left: 45px;
+    width: 408px;
+    margin-bottom: 38px;
+  }
+
+  .request-fields
+  {
+   margin-top: 30px;
+  }
+  
+  .request-label
+  {
+    color: #fff;
+  }
+
+  .chekbox-conteiner
+  {
+    margin-left: 45px;
+    margin-top: -30px;
+  }
+
+  .request-registrashen button
+  {
+    width: 213px;
+    height: 51px;
+    margin-left: 250px;
+    margin-top: 10px;
+  }
+
+  .icon-fut
+  {
+    width: 72px;
+    height: 72px;
+    border-radius: 100%;
+    padding-left: 3px;
+    padding-top: 9px;
+  }
+
+  .icon-pig
+  {
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 38px;
+    margin-right: -51px;
+    align-items: center;
+    color: #E3B873;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .wildest-fantasies
+  {
+    margin-top: 250px;
+    background-image: url('../images/backgraund_fantasies.jpg');
+    background-size: cover;
+    height: 864px;
+    position: relative;
+  }
+
+  .text-examples
+  {
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+
+  .text-examples h2
+  {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #E3B873;
+  }
+
+  .example-container
+  {
+    z-index: 1;
+    position: relative;
+  }
+
+  .examples-list
+  {
+    color: #fff;
+    font-size: 20px;
+    line-height: 38px;
+  }
+
+  .text-examples ul li
+  {
+    margin-bottom: 20px;
+  }
+
+  .activ-example
+  {
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873;
+    width: 152px;
+  }
